@@ -1,6 +1,5 @@
 current directory: /Users/faezehzand/scheduled_tweets/''/gems/prism-1.5.2/ext/prism
-/Users/faezehzand/.rbenv/versions/3.2.2/bin/ruby extconf.rb
-/Users/faezehzand/.rbenv/versions/3.2.2/bin/ruby: warning: Ruby was built without YJIT support. You may need to install rustc to build Ruby with YJIT.
+/opt/homebrew/opt/ruby@3.2/bin/ruby extconf.rb
 checking for prism.h in /Users/faezehzand/scheduled_tweets/''/gems/prism-1.5.2/include... no
 *** extconf.rb failed ***
 Could not create Makefile due to some reason, probably lack of necessary
@@ -9,7 +8,6 @@ need configuration options.
 
 Provided configuration options:
 	--with-opt-dir
-	--without-opt-dir
 	--with-opt-include
 	--without-opt-include=${opt-dir}/include
 	--with-opt-lib
@@ -18,7 +16,7 @@ Provided configuration options:
 	--without-make-prog
 	--srcdir=.
 	--curdir
-	--ruby=/Users/faezehzand/.rbenv/versions/3.2.2/bin/$(RUBY_BASE_NAME)
+	--ruby=/opt/homebrew/Cellar/ruby@3.2/3.2.9_1/bin/$(RUBY_BASE_NAME)
 extconf.rb:78:in `<main>': prism.h is required (RuntimeError)
 
 To see why this extension failed to compile, please check the mkmf.log which can be found here:
